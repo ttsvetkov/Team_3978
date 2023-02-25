@@ -1,6 +1,6 @@
 public class PowN
     {
-        public static int ConsoleInput(string msg)
+    public static int ConsoleInput(string msg)
     {
         Console.WriteLine(msg);
         // вводим строку
