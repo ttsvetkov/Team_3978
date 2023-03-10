@@ -6,8 +6,8 @@ using System;
 using static Input;
 using static Array;
 
-int rows = InputNumber("Введите количество строк массива");
-int columns = InputNumber("Введите количество столбцов массива");
+int rows = InputNumber("Введите количество строк матрицы");
+int columns = InputNumber("Введите количество столбцов матрицы");
 
 int[,] matrix = CreateMatrix(rows, columns);
 FillRandomNumbers(matrix);
